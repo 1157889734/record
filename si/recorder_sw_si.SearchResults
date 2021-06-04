@@ -1,0 +1,6 @@
+---- NetControlRcvThread Matches (6 in 2 files) ----
+MyNet.c (mycode):pthread_t NetControlRcvThreadId;
+MyNet.c (mycode):	ret = pthread_create(&NetControlRcvThreadId, NULL, (void *)NetControlRcvThread, NULL);
+MyNet.c (mycode):		printf("Create NetControlRcvThread error! \n");
+MyNet.c (mycode):void NetControlRcvThread(void)
+MyNet.h (mycode):void NetControlRcvThread(void);
